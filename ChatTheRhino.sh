@@ -1,0 +1,1 @@
+cd /home/modersesel/ChatTheRhino ; ./log.sh

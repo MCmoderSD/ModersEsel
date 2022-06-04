@@ -1,0 +1,1 @@
+cd /home/modersesel/channel/RzrWanted; node .

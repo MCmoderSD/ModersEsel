@@ -1,0 +1,6 @@
+const ModersEselToken = 'oauth:';
+const MCmoderSDToken = 'oauth:';
+const ChatTheRhinoToken = 'oauth:';
+module.exports.ModersEselToken=ModersEselToken;
+module.exports.MCmoderSDToken=MCmoderSDToken;
+module.exports.ChatTheRhinoToken=ChatTheRhinoToken;

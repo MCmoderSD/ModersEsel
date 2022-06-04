@@ -1,0 +1,1 @@
+cd /home/modersesel/channel/Xirux_HD ; node .
