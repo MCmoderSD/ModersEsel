@@ -1,4 +1,5 @@
-const {ModersEselToken} = require("/home/modersesel/ModersEsel/token.js");
+//const {ModersEselToken} = require("/home/modersesel/ModersEsel/token.js");
+const {ModersEselToken} = require("C:\\Users\\MCmoderSD\\Desktop\\GitHub\\ModersEsel\\token.js");
 const streamer = 'RzrWanted';
 const check = 'ModersEsel';
 //const ChatColor = '/color #8030d3';
@@ -7,6 +8,7 @@ const check = 'ModersEsel';
 
 const tmi = require('tmi.js');
 const { channel, username } = require('tmi.js/lib/utils');
+const random = require("random");
 
 const options = {
     options: {
@@ -124,25 +126,9 @@ client.on('chat', (channel, user, message, self) => {
 
 })
 
-
-/*sexistscore
-const random = require('random');
-
-const wait = async () => {
-    await delay(5000);
-    let i = 0;
-    do{
-        sexistscore=random.int((min = 0), (max = 100))
-    }   while (i < 5);  
-};
-
-
-
-
-
 client.on('chat', (channel, user, message, self) => {
-
-    if(message === "!sexistscore")     
-    client.action(check, `${user.username} hat einen Sexistscore von ${sexistscore}% Kappa`)   
-
-})*/
+    let sexistscore = random.int(-10, 212)
+    if(message === "!sexistscore"){
+        client.action(streamer, `${user.username} hat einen Sexistscore von ${sexistscore} Kappa`)   
+    }
+})
