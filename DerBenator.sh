@@ -1,1 +1,0 @@
-cd /home/modersesel/channel/DerBenator; node . 
