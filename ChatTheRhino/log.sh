@@ -1,1 +1,0 @@
-cd /home/modersesel/ChatTheRhino; node . > /home/modersesel/log.txt

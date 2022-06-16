@@ -1,1 +1,0 @@
-cd /home/modersesel/channel/XXXOG69; node .
