@@ -1,0 +1,87 @@
+//Commands:
+
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === '!modercommands' || message === 'commands' || message === '!commands' || message === 'EselCommands' || message === '!ModersEsel' || message === '!modersesel' || message === 'Modersesel')
+        client.action(streamer, `Here try them out: ${allcommands}`)
+
+})
+
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === '!dacs')
+        client.action(streamer, 'Steht auf Redheads KEKW')
+
+})
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === '!ModersIQ' || message === '!modersIQ' || message === '!modersiq')
+        client.action(streamer, 'ist größer als 130 5Head')
+
+})
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === '!Leo' || message === '!leo')
+        client.action(streamer, 'ist ein roter großer Riese')
+
+})
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === '!AgnesScare' || message === '!r4kunnnScare')
+        client.action(streamer, 'https://clips.twitch.tv/AgitatedDignifiedEchidnaJKanStyle-YvqxB7AArY9FyruF?tt_content=url&tt_medium=clips_api')
+
+})
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === '!raus')
+        client.action(streamer, 'Raus!!! --> 🚪')
+
+})
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === '!poop' || message === '!Poop'|| message === '!scheißen' || message === '!kacken'|| message === '!Scheißen'|| message === '!Kacken')
+        client.action(streamer, `@${user.username} geht jetzt erstmal DICK scheißen!`)
+
+})
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === '!RollEsel' || message === '!roll Esel' || message === '!roll esel' || message === 'Roll Esel')
+        client.action(streamer, '!play')
+
+})
+
+client.on('chat', (channel, user, message, self) => {                                       //Donowall
+
+    if(message === 'donowall' || message === '!StopAgnessing')
+   client.action(streamer, `@RzrWanted ich bitte Sie darum sich wieder auf den chat zu konzentrieren und die überlesenen Nachrichten von ${user.username} vorzulesen! BONKTHESTREAMER`)
+    
+})
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === "!Lena's Phobie")
+    client.action(streamer, `Hippopotomonstrosesquippedaliophobie --> ist die Phobie vor langen Wörtern`)
+
+})
+
+client.on('chat', (channel, user, message, self) => {
+
+    if(message === "!IchHasseFrauen" || message === '!ichhassefrauen' || message === '!IchhasseFrauen' || message === '!Ichhassefrauen')
+    client.action(streamer, `https://www.twitch.tv/r4kunnn`)
+
+})
+
+client.on('chat', (channel, user, message, self) => {
+    let sexistscore = random.int(-10, 212)
+    if(message === "!sexistscore"){
+        client.action(streamer, `${user.username} hat einen Sexistscore von ${sexistscore} Kappa`)   
+    }
+})
